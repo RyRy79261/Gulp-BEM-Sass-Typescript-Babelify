@@ -1,0 +1,27 @@
+// FONT FAMILIES
+// ref($prata-fontstack, $circular-fontstack)
+$body-copy-family: $serif-fontstack;;
+
+// WEIGHTS
+// ref(100: thin, 200: extra-light, 300: light, 400: (book)regular,
+// 500: medium, 600: semi-bold, 700: bold, 800: extra-bold, 900: black)
+// -Body copy
+$body-copy-weight: $weight-regular;
+
+// SIZES
+// -Body copy
+$body-copy-size: 15px;
+
+// COLOR DEFAULTS
+// -Body copy
+$body-copy-color: $black;
+
+// STYLE
+// ref(normal, italic, oblique)
+// -Body copy
+$body-copy-style: normal;
+
+// CAPITALIZATION (Transform)
+// ref(none, capitalize, uppercase, lowercase)
+// -Body copy
+$body-copy-transform: none;

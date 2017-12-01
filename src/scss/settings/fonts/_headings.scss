@@ -1,0 +1,46 @@
+// FONT FAMILIES
+// ref($serif-fontstack, $sans-serif-fontstack)
+$heading-large-family: $sans-serif-fontstack;
+$heading-alt-medium-family: $sans-serif-fontstack;
+$heading-medium-family: $sans-serif-fontstack;
+$heading-small-family: $sans-serif-fontstack;
+$heading-x-small-family: $sans-serif-fontstack;
+
+// WEIGHTS
+// ref(100: thin, 200: extra-light, 300: light, 400: (book)regular,
+// 500: medium, 600: semi-bold, 700: bold, 800: extra-bold, 900: black)
+$heading-large-weight: $weight-bold;
+$heading-alt-medium-weight: $weight-regular;
+$heading-medium-weight: $weight-regular;
+$heading-small-weight: $weight-bold;
+$heading-x-small-weight: $weight-bold;
+
+// SIZES
+$heading-large-size: 48px;
+$heading-alt-medium-size: 20px;
+$heading-medium-size: 20px;
+$heading-small-size: 17px;
+$heading-x-small-size: 10px;
+
+// COLOR DEFAULTS
+$heading-large-color: $black;
+$heading-alt-medium-color: $white;
+$heading-medium-color: $black;
+$heading-small-color: $black;
+$heading-x-small-color: $white;
+
+// STYLE
+// ref(normal, italic, oblique)
+$heading-large-style: normal;
+$heading-alt-medium-style: normal;
+$heading-medium-style: normal;
+$heading-small-style: normal;
+$heading-x-small-style: normal;
+
+// CAPITALIZATION (Transform)
+// ref(none, capitalize, uppercase, lowercase)
+$heading-large-transform: none;
+$heading-alt-medium-transform: none;
+$heading-medium-transform: none;
+$heading-small-transform: none;
+$heading-x-small-transform: uppercase;

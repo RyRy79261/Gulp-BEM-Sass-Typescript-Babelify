@@ -1,0 +1,14 @@
+// This SASS style system is set up to be as modular as possible
+
+// For best structure, keep scss files to preferably less than 100 lines
+// Use the BEM mixins for outputting flatter selectors and reducing file size
+// Whenever possible, take styling variables out of component files for easy updates
+// DONT FORGET TO ADD NEW FILES TO THE RELEVANT INDEX FILE
+
+@import 'resources/index';
+@import 'settings/index';
+@import 'typography/index';
+@import 'master/index';
+@import 'pages/index';
+@import 'elements/index';
+@import 'modules/index';

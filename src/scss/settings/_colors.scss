@@ -1,0 +1,22 @@
+// Primary
+$white: white;
+$black: black;
+$gray: gray;
+$purple:purple;
+
+// Additional
+$red: red;
+
+// Gradient
+$gradient-start: $red;
+$gradient-end: $purple;
+
+// Main gradient
+@mixin default-gradient(){
+  @include linear-gradient(90deg, $gradient-start, $gradient-end);
+}
+
+// Modified
+$gray-opaque: rgba($gray, .4);
+$black-opaque: rgba($black, .1);
+$white-opaque: rgba($white, .6);

@@ -1,0 +1,32 @@
+// Speeds
+$speed-hover: 200ms;
+$speed-transform: 400ms;
+
+// Buffers
+$buffer: 100ms;
+$buffer2: $buffer * 2;
+$buffer3: $buffer * 3;
+$buffer4: $buffer * 4;
+
+// Timelines
+// Example this is placed in delays of elements to fire at predictable stages
+// This is a timeline with 2 stages, general purpose for say a contact modal open sequence
+// prefixing the timeline with cm- for Contact Modal
+
+// The comments indicate what is happening inbetween the stage variables
+
+// ------------
+// MENU 
+$cm-speed: $speed-transform;
+$cm-stagger: $buffer * 0.5;
+// Menu expands
+$cm-timeline-open-1: $speed-transform;
+// Menu is expanded
+$cm-timeline-open-2: $cm-timeline-open-1 + $buffer;
+// Water mark fading in
+$cm-timeline-open-3: $cm-timeline-open-2 + $buffer;
+// Heading is fading in
+$cm-timeline-open-4: $cm-timeline-open-3 + ($buffer / 2);
+// Sub heading is sliding/fading in
+$cm-timeline-open-end:$cm-timeline-open-4 + $speed-transform;
+// ------------

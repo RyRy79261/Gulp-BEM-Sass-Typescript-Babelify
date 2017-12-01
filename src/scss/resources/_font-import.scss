@@ -1,0 +1,34 @@
+// IMPORTS
+// Serif
+// @font-face {
+//   font-family: "example";
+//   font-weight: 500;
+// 	src: url("font-files/example/example.otf") format("opentype");
+// }
+// @font-face {
+//   font-family: "example";
+//   font-weight: 500;
+//   font-style: italic;
+// 	src: url("font-files/example/example.otf") format("opentype");
+// }
+$serif-fontstack: serif;
+// San Serif
+// @font-face {
+//   font-family: "example2";
+//   font-weight: 400;
+// 	src: url("font-files/example/example.ttf") format("truetype");
+// }
+$sans-serif-fontstack: sans-serif;
+
+// Weights
+//ref(100: thin, 200: extra-light, 300: light, 400: (book)regular,
+// 500: medium, 600: semi-bold, 700: bold, 800: extra-bold, 900: black)
+$weight-thin: 100;
+$weight-extra-light: 200;
+$weight-light: 300;
+$weight-regular: 400;
+$weight-medium: 500;
+$weight-semi-bold: 600;
+$weight-bold: 700;
+$weight-extra-bold: 800;
+$weight-black: 900;

@@ -1,0 +1,38 @@
+$blockName: heading;
+.#{$blockName} {
+  // Style modifiers
+  @include font-smoothing();
+  // Sizes
+  @include modifier('large') {
+    font-family: $heading-large-family;
+    font-size: $heading-large-size;
+    font-weight: $heading-large-weight;
+    font-style: $heading-large-style;
+    text-transform: $heading-large-transform;
+    color: $heading-large-color;
+  }
+  @include modifier('medium') {
+    font-family: $heading-medium-family;
+    font-size: $heading-medium-size;
+    font-weight: $heading-medium-weight;
+    font-style: $heading-medium-style;
+    text-transform: $heading-medium-transform;
+    color: $heading-medium-color;
+  }
+  @include modifier('small') {
+    font-family: $heading-small-family;
+    font-size: $heading-small-size;
+    font-weight: $heading-small-weight;
+    font-style: $heading-small-style;
+    text-transform: $heading-small-transform;
+    color: $heading-small-color;
+  }
+  @include modifier('x-small') {
+    font-family: $heading-x-small-family;
+    font-size: $heading-x-small-size;
+    font-weight: $heading-x-small-weight;
+    font-style: $heading-x-small-style;
+    text-transform: $heading-x-small-transform;
+    color: $heading-x-small-color;
+  }
+}

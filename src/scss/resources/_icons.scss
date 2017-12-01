@@ -1,0 +1,30 @@
+// Imports
+// @font-face {
+//   font-family: 'wc-icons';
+//   src: src() format('woff'),
+// }
+
+// Mixin
+// This needs to be used in the required pseudo element.
+@mixin icon($icon-code){
+  font-family: "example-icons";
+  font-style: normal;
+  font-weight: normal;
+  content: unicode($icon-code);
+  speak: none;
+  display: block;
+  text-decoration: inherit;
+  text-align: center;
+  // For safety - reset parent styles, that can break glyph codes
+  font-variant: normal;
+  text-transform: none;
+  // fix buttons height, for twitter bootstrap
+  line-height: 1em;
+}
+
+// Icon Codes
+$icon-1:          \e800;
+$icon-2:          \e802;
+$icon-3:          \e803;
+$icon-4:          \e804;
+$icon-5:          \e805;

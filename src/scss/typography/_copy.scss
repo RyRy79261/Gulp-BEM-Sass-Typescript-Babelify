@@ -1,0 +1,14 @@
+// Here we set default styling for most body copy elements such as lists or 'p' tags etc
+p {
+  @include font-smoothing();
+  line-height: $line-height;
+  font-family: $body-copy-family;
+  font-size: $body-copy-size;
+  font-weight: $body-copy-weight;
+  font-style: $body-copy-style;
+  text-transform: $body-copy-transform;
+  a {
+    text-decoration: none;
+    color: $white;
+  }
+}

@@ -1,0 +1,9 @@
+// Include Media has been added to manage the responsive styling 
+$breakpoints: (phone: 320px, tablet: 768px, desktop: 1024px);
+
+// Inclusive and exclusive operators for a finer control over the intervals 
+@include media(">phone", "<=tablet") {
+}
+// Use ligatured operators if you fancy a slicker declaration 
+@include media("≥phone", "≤tablet") {
+}

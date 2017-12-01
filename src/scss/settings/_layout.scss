@@ -1,0 +1,24 @@
+// This is for storing the global layout values
+// Prefixed with layout, H(horizontal), V(Vertical)
+// Margins
+$content-margin-h-desktop: 85px;
+$content-margin-v-desktop: 65px;
+
+$content-margin-h-tablet: 0px;
+$content-margin-v-tablet: 0px;
+
+$content-margin-h-mobile: 0px;
+$content-margin-v-mobile: 0px;
+
+// Padding
+
+// Z-Index
+// Using layers of 1000 for breathing room between components
+$zi-layer-increment: 1000;
+$zi-background: -1;
+$zi-layer0: 0;
+$zi-layer1: $zi-layer-increment * 1;
+$zi-layer2: $zi-layer-increment * 2;
+$zi-layer3: $zi-layer-increment * 3;
+$zi-layer4: $zi-layer-increment * 4;
+$zi-layer5: $zi-layer-increment * 5;
